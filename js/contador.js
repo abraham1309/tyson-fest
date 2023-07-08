@@ -1,5 +1,5 @@
 simplyCountdown('#div-tiempo', {
-    year: 2022, // required
+    year: 2023, // required
     month: 12, // required
     day: 17, // required
     hours: 24, // Default is 0 [0-23] integer
