@@ -405,6 +405,7 @@ h2 {
     justify-content: center;
     align-items: center;
     z-index: 1;
+    overflow-y: auto;
 }
 
 .div-general-contador .div-elementos {
@@ -437,10 +438,11 @@ h2 {
     flex-direction: column;
 }
 
-.div-general-contador .div-elementos .div-contador p {
+.div-general-contador p {
     font-family: "Gotham Book";
     font-size: 23px;
     color: #fff;
+    text-align: center;
 }
 
 .div-general-contador .div-elementos .div-contador .div-tiempo {
@@ -448,7 +450,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15%;
+    margin-bottom: 0%;
     border: solid 3px #dd9f18;
 }
 
@@ -539,7 +541,7 @@ h2 {
 
 .div-fondo-contador {
     position: absolute;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/fondo.JPG);
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../images/fondo.JPG);
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -584,6 +586,10 @@ h2 {
     }
     .div-general-contador .div-elementos .div-contador .div-tiempo .p-letra {
         font-size: 12px;
+    }
+    .p-invitacion {
+        width: 90%;
+        font-size: 20px !important;
     }
 }
 
