@@ -1,5 +1,11 @@
-simplyCountdown('#div-tiempo', {
+simplyCountdown('#div-tiempo', { <<
+    << << < HEAD
     year: 2024, // required
+    ===
+    === =
+    year: 2023, // required
+    >>>
+    >>> > 668 d25e46ad74423e26d942e15ec10ba7bc6d5dd
     month: 12, // required
     day: 14, // required
     hours: 24, // Default is 0 [0-23] integer
