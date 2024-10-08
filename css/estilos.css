@@ -591,6 +591,13 @@ h2 {
         width: 90%;
         font-size: 20px !important;
     }
+    .div-elementos {
+        padding-top: 30% !important;
+        justify-content: flex-start !important;
+    }
+    .h1-titulo {
+        font-size: 32px !important;
+    }
 }
 
 @media (max-width: 400px) {
